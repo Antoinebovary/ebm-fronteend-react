@@ -29,7 +29,7 @@ const SignUp = () => {
 
     setLoading(true);
     try {
-      const response = await axios.post("http://localhost:8080/users/register", {
+      const response = await axios.post("https://ebm-backend-08f7bcc35417.herokuapp.com/users/register", {
         tin,
         email,
         firstName,
